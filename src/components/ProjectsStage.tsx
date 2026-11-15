@@ -331,7 +331,7 @@ export const ProjectsStage = forwardRef<ProjectsHandle, ProjectsStageProps>(func
               something real.
             </h3>
           </div>
-          <div style={{ textAlign: 'right' }}>
+          <div className="pfoot-aside">
             <a href="mailto:kamaljeyaram07@gmail.com">kamaljeyaram07@gmail.com</a>
             <br />
             <span className="mono" style={{ opacity: 0.7, display: 'inline-block', marginTop: 10 }}>

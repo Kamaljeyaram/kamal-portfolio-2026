@@ -161,7 +161,7 @@ export function DomoOverlays({ hideLoader, onOpenProjects }: DomoOverlaysProps) 
                 in mind?
               </h2>
             </div>
-            <div style={{ textAlign: 'right' }}>
+            <div className="contact-aside">
               <span className="mono" style={{ opacity: 0.6 }}>
                 Email me
               </span>
