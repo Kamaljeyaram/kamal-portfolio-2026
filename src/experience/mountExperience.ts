@@ -378,10 +378,10 @@ export function mountExperience(handlers: ExperienceHandlers = {}): ExperienceCo
     g.fillStyle = '#FFFFFF'
     g.font = '700 120px Instrument Sans, sans-serif'
     g.textAlign = 'center'
-    g.fillText('DOMO', w / 2, h / 2 + 10)
+    g.fillText('KAMAL', w / 2, h / 2 + 10)
     g.font = '500 28px JetBrains Mono, monospace'
     g.globalAlpha = 0.75
-    g.fillText('SCROLL STORY', w / 2, h / 2 + 70)
+    g.fillText('AI  ·  BACKEND', w / 2, h / 2 + 70)
     g.globalAlpha = 1
   })
   const lidScreen = new THREE.Mesh(
