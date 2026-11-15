@@ -1,0 +1,88 @@
+import { projects } from './projects'
+
+export const profile = {
+  firstName: 'Kamal',
+  lastName: 'Jeyaram',
+  displayName: 'KAMAL JEYARAM',
+  shortName: 'KJ',
+  brand: 'KJ©',
+  role: 'Software Engineer',
+  tagline: 'I build intelligent products.',
+  location: 'Chennai, India',
+  timezone: 'Asia/Kolkata',
+  status: 'Open to roles & collaborations',
+  education: {
+    school: 'Sri Sai Ram Engineering College',
+    program: 'B.E. CSE — Internet of Things',
+    years: '2022 — 2026',
+    gpa: '8.04 CGPA',
+  },
+  headline: {
+    lines: ['Ship ideas.', 'Ship systems.', 'Ship impact.'],
+  },
+  about:
+    'Aspiring software engineer focused on Python, AI/ML, and IoT systems. I care about products that sense the world, reason on data, and ship cleanly from prototype to production.',
+  philosophy:
+    'I build for clarity: sensors that sleep smart, models that explain themselves, and interfaces people actually trust.',
+  skills: [
+    { title: 'AI & ML', detail: 'models, CV, decision systems' },
+    { title: 'Full-stack', detail: 'Python, React, APIs' },
+    { title: 'IoT & Edge', detail: 'sensors, mesh, cloud sync' },
+    { title: 'Cloud', detail: 'NPTEL top 5% · GCP foundations' },
+  ],
+  meta: ['IoT Engineer', 'Based in Chennai', 'Builder · Learner'],
+  projects,
+  toolkitRows: [
+    [
+      'PYTHON',
+      '✦ REACT',
+      'TYPESCRIPT',
+      'IoT',
+      'TENSORFLOW',
+      'NODE',
+      'PYTHON',
+      '✦ REACT',
+      'TYPESCRIPT',
+      'IoT',
+      'TENSORFLOW',
+      'NODE',
+    ],
+    [
+      'POSTGRES',
+      'GCP ◎',
+      'MQTT',
+      'OPENCV',
+      'FASTAPI',
+      'THREE',
+      'POSTGRES',
+      'GCP ◎',
+      'MQTT',
+      'OPENCV',
+      'FASTAPI',
+      'THREE',
+    ],
+    ['GSAP', 'VITE ▲', 'DOCKER', 'EDGE', 'LLM', 'C++', 'GSAP', 'VITE ▲', 'DOCKER', 'EDGE', 'LLM', 'C++'],
+  ],
+  experience: [
+    {
+      org: 'Aioty Labs',
+      role: 'IoT Engineer',
+      detail: 'Precision farming · NPK sensors · mesh sync · cloud monitoring',
+    },
+    {
+      org: 'Zetpeak',
+      role: 'Python Developer Intern',
+      detail: 'Shipped Python features and learned production workflows',
+    },
+  ],
+  links: {
+    github: 'https://github.com/Kamaljeyaram',
+    linkedin: 'https://linkedin.com/in/kamal-jeyaram-109785257',
+    email: 'https://linkedin.com/in/kamal-jeyaram-109785257',
+    emailLabel: 'Message on LinkedIn ↗',
+  },
+  journeyLine: 'From Chennai to the cloud',
+  oops: 'Keep going!',
+  contactTitle: ['Let’s build', 'something sharp.'],
+  contactNote: 'Roles, freelance, or research — happy to talk.',
+}
