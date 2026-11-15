@@ -42,11 +42,9 @@ export function DomoOverlays({ hideLoader, onOpenProjects }: DomoOverlaysProps) 
 
         <div id="tShift">
           <h2>
-            Python.
-            <br />
-            APIs.
-            <br />
-            AI that ships.
+            <span>Python.</span>
+            <span>APIs.</span>
+            <span>AI that ships.</span>
           </h2>
           <div className="quote">
             <div className="mono" style={{ display: 'flex', justifyContent: 'space-between' }}>
@@ -63,8 +61,11 @@ export function DomoOverlays({ hideLoader, onOpenProjects }: DomoOverlaysProps) 
             </span>
           </div>
           <p className="small">
-            Computer Science (IoT) graduate building backend services, REST APIs and AI-powered
-            applications with Python, Flask, MySQL and modern AI.
+            <span className="small-full">
+              Computer Science (IoT) graduate building backend services, REST APIs and AI-powered
+              applications with Python, Flask, MySQL and modern AI.
+            </span>
+            <span className="small-short">CS (IoT) graduate. Python, APIs and AI.</span>
           </p>
         </div>
 
